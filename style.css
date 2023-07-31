@@ -1,0 +1,123 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+p.bio {
+  text-align: center;
+}
+hr {
+  width: 100px;
+  height: 2px;
+  background-color: #2199e8;
+  margin-bottom: 10px;
+}
+
+img.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+}
+
+h1.name {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+span.slogan {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(51, 51, 51, 0.7);
+  margin-bottom: 35px;
+}
+.social-img ul {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.social-img ul li {
+  display: inline;
+  background-color: rgba(204, 204, 204 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 150ms ease-in-out;
+}
+.social-img ul li:hover {
+  background-color: #ccc;
+}
+
+h5 {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 50px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.small-6.columns h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.small-6.columns p {
+  margin: 5px 0;
+  font-size: smaller;
+}
+
+.work {
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.quote-skill-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.quote-skill-container .quote {
+  flex: 1;
+  padding: 10px;
+  color: #2199e8;
+}
+.quote-skill-container .skills {
+  flex: 1;
+  padding: 10px;
+}
+
+.quote-skill-container .skills ul {
+  display: flex;
+  flex-direction: row;
+}
+.quote-skill-container .skills ul div {
+  flex: 1;
+}
+.quote-skill-container .skills ul div .skill-item {
+  display: block;
+}
+
+.callme {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
